@@ -1,0 +1,12 @@
+Instalacja> Terminal
+npm install --save-dev autoprefixer-cli
+npm install --save-dev html-validate
+
+package.json (cześć script)
+"test": "html-validate *.html"
+"test": "html-validate index.html"
+
+"test": "autoprefixer-cli -o style.prefixed.css style.css"
+
+Terminal (najpierw trzewa cd otworzyc katalog z projektem, pwd do sprawdzenia gdzie jestem)
+npm test

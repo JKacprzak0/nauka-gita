@@ -1,0 +1,32 @@
+/* Variables*/
+/*Global*/
+/*include padding and border in all HTML elements size*/
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+/* remove page margin added by browser to "<body>"*/
+* {
+  margin: 0; }
+
+
+.container{
+	display: -ms-flexbox;
+	display: flex;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #2c2c54;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+section {
+  padding: 96px 0; }
+
